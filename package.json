@@ -1,0 +1,33 @@
+{
+  "name": "baitball",
+  "version": "1.0.0",
+  "description": "Boid in the browser",
+  "author": "moekidev",
+  "license": "MIT",
+  "main": "dist/index.min.js",
+  "module": "dist/index.esm.min.js",
+  "browser": "dist/index.umd.min.js",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "demos": "npm run build && vite ./demos"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moekidev/baitball.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moekidev/baitball/issues"
+  },
+  "homepage": "https://github.com/moekidev/baitball#readme",
+  "dependencies": {
+    "p5": "^1.4.0"
+  },
+  "devDependencies": {
+    "rollup": "^2.62.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "vite": "^2.7.10"
+  }
+}
