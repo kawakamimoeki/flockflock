@@ -1,15 +1,15 @@
-# Mure
+# Baitball
 
 Boid in the browser
 
 ## Installation
 
 ```
-npm i -D mure
+npm i -D baitball
 ```
 
 ```
-yarn add -D mure
+yarn add -D baitball
 ```
 
 ## Usage
@@ -19,9 +19,9 @@ yarn add -D mure
 ```
 
 ```js
-import { Mure } from 'mure'
+import { Baitball } from 'baitball'
 
-new Mure('.world', {
+new Baitball('.world', {
   n: 200,
   fps: 60
 })
