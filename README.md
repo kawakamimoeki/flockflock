@@ -23,6 +23,8 @@ import { Baitball } from 'baitball'
 
 new Baitball('.world', {
   n: 200,
-  fps: 60
+  fps: 60,
+  bait: true,
+  predator: true
 })
 ```
