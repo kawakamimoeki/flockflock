@@ -15,7 +15,7 @@ yarn add -D baitball
 ## Usage
 
 ```html
-<input type="text" class="world">
+<div class="world" style="width: 500px; height: 500px;"></div>
 ```
 
 ```js
