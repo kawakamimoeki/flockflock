@@ -2,6 +2,8 @@
 
 Boid in the browser
 
+![Image](https://github.com/moekidev/baitball/blob/main/docs/image.gif)
+
 ## Installation
 
 ```
