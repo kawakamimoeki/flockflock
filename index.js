@@ -3,7 +3,7 @@ import { Fish } from './lib/fish'
 import { Predator } from './lib/predator'
 import { Bait } from './lib/bait'
 
-class Baitball {
+class Flock {
   constructor (selector, opts = {}) {
     this.element = document.querySelector(selector)
     this.opts = Object.assign(this.defaultOpts(), opts)
@@ -57,4 +57,4 @@ class Baitball {
   }
 }
 
-export { Baitball }
+export { Flock }

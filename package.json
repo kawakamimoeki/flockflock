@@ -1,6 +1,6 @@
 {
-  "name": "baitball",
-  "version": "1.0.4",
+  "name": "flockflock",
+  "version": "1.0.5",
   "description": "Boid in the browser",
   "author": "moekidev",
   "license": "MIT",
@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moekidev/baitball.git"
+    "url": "git+https://github.com/moekidev/flockflock.git"
   },
   "bugs": {
-    "url": "https://github.com/moekidev/baitball/issues"
+    "url": "https://github.com/moekidev/flockflock/issues"
   },
-  "homepage": "https://github.com/moekidev/baitball#readme",
+  "homepage": "https://github.com/moekidev/flockflock#readme",
   "dependencies": {
     "p5": "^1.4.0"
   },

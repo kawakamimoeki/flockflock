@@ -1,17 +1,17 @@
-# Baitball
+# FlockFlock
 
-Boid in the browser
+Boid (flock simulation) in the browser.
 
-![Image](https://github.com/moekidev/baitball/blob/main/docs/image.gif)
+![Image](https://github.com/moekidev/flockflock/blob/main/docs/image.gif)
 
 ## Installation
 
 ```
-npm i -D baitball
+npm i -D flockflock
 ```
 
 ```
-yarn add -D baitball
+yarn add -D flockflock
 ```
 
 ## Usage
@@ -21,9 +21,9 @@ yarn add -D baitball
 ```
 
 ```js
-import { Baitball } from 'baitball'
+import { Flock } from 'flockflock'
 
-new Baitball('.world', {
+new Flock('.world', {
   n: 200,
   fps: 60,
   bait: true,
